@@ -3,6 +3,14 @@
 ## Tools 
 
 **Communication:** Discord  
-**IDE:**  
-**Language:**  
-**Unit Testing:**  
+**IDE:** IntelliJ IDEA with Code with Me Plugin  
+**Language:** JAVA  
+**Compiler:** Maven  
+**Unit Testing:** JUnit  
+**Code Coverage Tool:** JaCoCo  
+
+
+## Mob Session #1  
+
+**URL:** 
+
