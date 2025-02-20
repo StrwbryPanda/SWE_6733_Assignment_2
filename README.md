@@ -26,5 +26,5 @@ are already familiar with the communication tool.
 
 ## Mob Session #1
 
-**URL:** 
+**Writing Tests: https://www.youtube.com/watch?v=ZEWkOagj1Kw** 
 
