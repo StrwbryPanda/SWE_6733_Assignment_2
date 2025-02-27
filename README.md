@@ -29,7 +29,7 @@ are already familiar with the communication tool.
 **Writing Tests:** https://www.youtube.com/watch?v=ZEWkOagj1Kw
 
 ## Mob Session #2
-**Refactoring & Adding Conjured Items:** 
+**Refactoring & Adding Conjured Items: https://youtu.be/OZ988q7FDes** 
 
 
 
