@@ -16,20 +16,20 @@ class GildedRoseTest {
 
     @Test
     void SulfurasNonZero() {
-        Item[] items = new Item[]{new Item("Sulfuras, Hand of Ragnaros", 10, 15)};
+        Item[] items = new Item[]{new Item("Sulfuras, Hand of Ragnaros", 10, 80)};
         GildedRose app = new GildedRose(items);
         app.updateQuality();
         assertEquals(10, app.items[0].sellIn);
-        assertEquals(15, app.items[0].quality);
+        assertEquals(80, app.items[0].quality);
     }
 
     @Test
     void SulfurasZero() {
-        Item[] items = new Item[]{new Item("Sulfuras, Hand of Ragnaros", 0, 0)};
+        Item[] items = new Item[]{new Item("Sulfuras, Hand of Ragnaros", 0, 80)};
         GildedRose app = new GildedRose(items);
         app.updateQuality();
         assertEquals(0, app.items[0].sellIn);
-        assertEquals(0, app.items[0].quality);
+        assertEquals(80, app.items[0].quality);
     }
 
     @Test
@@ -140,7 +140,15 @@ class GildedRoseTest {
         GildedRose app = new GildedRose(items);
         app.updateQuality();
         assertEquals(49,items[0].quality);
+    }
 
+    @Test
+    void ConjuredItem(){
+        Item[] items = new Item[]{new Item("Conjured Item", 10, 20)};
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals(9,items[0].sellIn);
+        assertEquals(18,items[0].quality);
     }
 }
 

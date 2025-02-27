@@ -26,5 +26,10 @@ are already familiar with the communication tool.
 
 ## Mob Session #1
 
-**Writing Tests: https://www.youtube.com/watch?v=ZEWkOagj1Kw** 
+**Writing Tests:** https://www.youtube.com/watch?v=ZEWkOagj1Kw
+
+## Mob Session #2
+**Refactoring & Adding Conjured Items:** 
+
+
 
